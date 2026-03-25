@@ -1,0 +1,54 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Excel (Data)
+# data/  <-- The user might want to push these if they are needed for deployment, 
+# but usually large data files are handled differently. 
+# However, the current code reads from 'data/' folder.
+# I'll keep them for now as they seem small and essential for the app.
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.sln
+*.sw?
+
+# Project specific
+out.txt
+telegram_config.json
+*.zip
+*.rar
